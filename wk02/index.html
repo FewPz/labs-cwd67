@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peeranat Matsor - Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .header {
+            text-align: center;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .header h1 {
+            margin-bottom: 10px;
+            color: #ecf0f1;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #3498db;
+            margin: 20px 0;
+        }
+
+        .about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .about img {
+            border-radius: 50%;
+            border: 4px solid #3498db;
+            margin: 20px 0;
+        }
+
+        .skills ul {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background-color: #3498db;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .skills li:hover {
+            transform: scale(1.05);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #3498db;
+        }
+
+        th {
+            background-color: #2980b9;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .projects ol {
+            padding-left: 30px;
+        }
+
+        .projects li {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .projects a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        .projects a:hover {
+            text-decoration: underline;
+        }
+
+        .contact form {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .contact input, 
+        .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact button:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Peeranat Matsor</h1>
+        <span>Looking at Back-End Software Developer | Java Software Developer</span>
+    </div>
+    <hr>
+    <div class="about">
+        <span>I am a third-year Information Technology student at King Mongkut's Institute of Technology Ladkrabang (KMITL) in Bangkok, Thailand. I aspire to pursue a career as a software engineer in Thailand in the future.</span>
+        <br>
+        <br>
+        <img src="https://ijudge.it.kmitl.ac.th:7159/api/file/img/1729263094244_35be6f.jpg" width="200" height="200">
+        <br>
+        <p><i>Email: <a href="mailto:sharpkung4826@gmail.com">sharpkung4826@gmail.com</a></i></p>
+        <p><i>Phone: <a href="tel:+66825945778">+66 (0) 82-594-5778</a></i></p>
+        <p><i>Website: <a href="https://fewpz.xyz">https://fewpz.xyz</a></i></p>
+    </div>
+    <hr>
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>PHP</li>
+            <li>HTML/CSS</li>
+            <li>TypeScript</li>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>Springboots</li>
+            <li>VertX</li>
+            <li>Go</li>
+            <li>Express</li>
+            <li>NextJS</li>
+            <li>Angular</li>
+            <li>Django</li>
+            <li>MySQL</li>
+            <li>Redis</li>
+            <li>MongoDB</li>
+            <li>Amazon RDS</li>
+            <li>Amazon EC2</li>
+            <li>Amazon S3</li>
+            <li>Amazon ECS</li>
+            <li>Linux</li>
+            <li>Git</li>
+            <li>Docker</li>
+            <li>Composer PHP</li>
+            <li>Jenkins</li>
+            <li>Kubernetes</li>
+            <li>Nginx</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="experience">
+        <h2>Experience</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Position</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Smilekrub Network</td>
+                    <td>Software Engineering</td>
+                    <td>2022 - Present</td>
+                </tr>
+                <tr>
+                    <td>King Mongkut's Institute of Technology Ladkrabang (KMITL)</td>
+                    <td>Teaching Assistant, Instructor</td>
+                    <td>2023 - Present</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <div class="projects">
+        <h2>Projects</h2>
+        <p>Here are some of my recent projects:</p>
+        <ol>
+            <li><b>&lt;i&gt;Judge - Online Code Judging System (V.1)</b> Developed a faculty-funded online judge system for competitive programming, supporting Python, C, C++, Scala, and Raptor (Flowchart), with plans for future expansion. Built using the Next.js framework and a REST API with Express, The system is actively used by 350 students in the School of Information Technology at King Mongkut's Institute of Technology Ladkrabang. <a href="https://ijudge.it.kmitl.ac.th" target="_blank">https://ijudge.it.kmitl.ac.th</a>.</li>
+            <li><b>J:Learn - Online Structural Validate-based System (V.3)</b> Designed and developed a faculty-funded online validation structure system supporting Java, with a mockup of a user-friendly and responsive user interface (UI) for both student and lecturer applications using Figma. Rewrote the grading validation system for improved performance by leveraging the Next.js framework and a REST API built with Node.js and Express. The system is actively used by 210 students in the School of Information Technology at King Mongkut's Institute of Technology Ladkrabang. <a href="https://jlearn.it.kmitl.ac.th" target="_blank">https://jlearn.it.kmitl.ac.th</a>.</li>
+        </ol>
+    </div>
+    <hr>
+    <div class="contact">
+        <h2>Contact Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input id="name" type="text" placeholder="Your Name">
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Your Email">
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <footer>
+        <p>© 2024 Peeranat Matsor. All rights reserved.</p>
+    </footer>
+</body>
+</html>
